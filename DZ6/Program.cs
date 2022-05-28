@@ -17,7 +17,7 @@ namespace DZ6
                 {
                     string note = string.Empty;
 
-                    int id = 0;
+                    int id;
                     Console.Write("\nВведите ID пользователя: ");
                     id = Convert.ToInt32(Console.ReadLine());
                     note += $"{id}#";
@@ -28,12 +28,12 @@ namespace DZ6
                     Console.Write("\nВведите фамилию имя отчество автора записи: ");
                     note += $"{Console.ReadLine()}#";
 
-                    int age = 0;
+                    int age;
                     Console.Write("\nВведите возраст сотрудника: ");
                     age = Convert.ToInt32(Console.ReadLine());
                     note += $"{age}#";
 
-                    int heigh = 0;
+                    int heigh;
                     Console.Write("\nВведите рост сотрудника: ");
                     heigh = Convert.ToInt32(Console.ReadLine());
                     note += $"{heigh}#";
